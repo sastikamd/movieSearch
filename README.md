@@ -3,7 +3,7 @@
 A React application to search movies using the OMDB API, view details, filter by type, and manage pagination. Built with React, Vite, Tailwind CSS, and React Router.
 
 ---
-
+ 
 ## Features
 - Movie search with keyword input
 - Pagination for search results
