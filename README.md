@@ -1,14 +1,35 @@
 # Movie Explorer
 
-A React + Tailwind CSS application for searching the OMDB database, viewing movie details, and filtering results.
+A React application to search movies using the OMDB API, view details, filter by type, and manage pagination. Built with React, Vite, Tailwind CSS, and React Router.
+
+---
 
 ## Features
-- Keyword search with paginated results
-- Filter by type (movie, series, episode) using OMDB’s `type` parameter
-- Detailed view with poster, plot, ratings, genre, cast, and more
-- Graceful error handling and friendly empty-state messages
-- React Router navigation
-- Clean, responsive UI built with Tailwind
+- Movie search with keyword input
+- Pagination for search results
+- Filter movies by type (movie, series, episode)
+- Detailed movie view with plot, ratings, cast, and more
+- State persisted in URL query parameters for back/forward navigation
+- Responsive UI styled with Tailwind CSS
+- Error handling and loading indicators
 
-## Setup
+---
 
+## Tech Stack
+- React 18
+- Vite as build tool
+- Tailwind CSS for styling
+- React Router v6 for routing
+- OMDB API for movie data
+
+---
+
+## Getting Started
+
+### Prerequisites
+- Node.js (>= 18 recommended)
+- npm or yarn
+
+### Installation
+
+1. Clone the repo  
